@@ -2,13 +2,13 @@ import I18nKeys from "./src/locales/keys";
 import type { Configuration } from "./src/types/config";
 
 const YukinaConfig: Configuration = {
-  title: "Yukina",
-  subTitle: "Yukina Template Demo Site",
-  brandTitle: "Yukina",
+  title: "Anthonny",
+  subTitle: "Anthonny Blog",
+  brandTitle: "Anthonny",
 
-  description: "Demo Site",
+  description: "Anthonny Blog",
 
-  site: "https://yukina-blog.vercel.app",
+  site: "https://vercel.com/anthonnys-projects-ae394ece",
 
   locale: "en", // set for website language and date format
 
@@ -27,25 +27,25 @@ const YukinaConfig: Configuration = {
     },
     {
       nameKey: I18nKeys.nav_bar_github,
-      href: "https://github.com/WhitePaper233/yukina",
+      href: "https://github.com/Anthonny-wt",
     },
   ],
 
-  username: "WhitePaper 白芷",
-  sign: "Ad Astra Per Aspera.",
-  avatarUrl: "https://s2.loli.net/2025/01/25/FPpTrQSezM8ivbl.webp",
+  username: "Anthonny",
+  sign: "Where digital advocacy meets interactive creativity",
+  avatarUrl: "https://i.postimg.cc/d3F5ndqx/726.jpg",
   socialLinks: [
     {
       icon: "line-md:github-loop",
-      link: "https://github.com/WhitePaper233",
+      link: "https://github.com/Anthonny-wt",
     },
     {
-      icon: "mingcute:bilibili-line",
-      link: "https://space.bilibili.com/22433608",
+      icon: "mdi:instagram",
+      link: "https://www.instagram.com/anthonny_wta",
     },
     {
-      icon: "mingcute:netease-music-line",
-      link: "https://music.163.com/#/user/home?id=125291648",
+      icon: "mdi:linkedin",
+      link: "https://www.linkedin.com/in/anthonny4dowt",
     },
   ],
   maxSidebarCategoryChip: 6, // It is recommended to set it to a common multiple of 2 and 3

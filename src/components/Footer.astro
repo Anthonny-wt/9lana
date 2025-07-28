@@ -4,7 +4,6 @@ import YukinaConfig from "../../yukina.config";
 import { i18n } from "../locales/translation";
 import I18nKeys from "../locales/keys";
 import { GetCategories, GetTags } from "../utils/content";
-
 const categories = await GetCategories();
 const tags = await GetTags();
 
@@ -181,13 +180,8 @@ const tagKeys = [...tags.keys()];
       <p>
         Powered By <a
           class="link"
-          href="https://github.com/WhitePaper233/yukina">Yukina</a
+          href="https://github.com/Anthonny-wt">Anthonny</a
         > & <a class="link" href="https://astro.build/">Astro</a>
-      </p>
-      <p>
-        <a class="link" href={new URL("sitemap-index.xml", YukinaConfig.site)}
-          >SiteMap</a
-        > / <a class="link" href="/rss.xml">RSS</a>
       </p>
     </div>
   </footer>
